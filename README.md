@@ -1,46 +1,26 @@
 Fizzbuzz Whiteboard Challenge
 
-
-
 Challenge:
 
-
-
 a) Write a public method that accepts a number
-
 b) When the number is divisible by 3 return the word fizz
-
 c) When the number is divisible by 5 return the word buzz
-
 d) When the number is divisible by both return the word fizzbuzz
 
-
-
 public string FizzBuzz( int num )
-
 {
-
     string result = "";
 
-
-
     if (num % 3 == 0)
-
     {
-
         result = "fizz";
-
     }
 
     if (num % 5 == 0)
-
     {
-
         result += "buzz";
-
     }
 
     return result;
-
 }
 
